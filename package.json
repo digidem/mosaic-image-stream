@@ -26,5 +26,16 @@
     "png-stream": "^1.0.4",
     "request": "^2.74.0",
     "standard": "^8.0.0"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digidem/mosaic-image-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digidem/mosaic-image-stream/issues"
+  },
+  "homepage": "https://github.com/digidem/mosaic-image-stream#readme"
 }
