@@ -25,7 +25,8 @@
     "jpg-stream": "^1.1.1",
     "png-stream": "^1.0.4",
     "request": "^2.74.0",
-    "standard": "^8.0.0"
+    "standard": "^8.0.0",
+    "tilebelt": "^1.0.1"
   },
   "directories": {
     "example": "example"
