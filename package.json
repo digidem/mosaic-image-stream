@@ -1,6 +1,6 @@
 {
   "name": "mosaic-image-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Streaming mosaic of multiple images into a single image",
   "main": "index.js",
   "scripts": {
