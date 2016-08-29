@@ -1,0 +1,30 @@
+{
+  "name": "mosaic-image-stream",
+  "version": "1.0.0",
+  "description": "Streaming mosaic of multiple images into a single image",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [
+    "mosaic",
+    "image",
+    "stream",
+    "join",
+    "merge",
+    "stitch"
+  ],
+  "author": "Gregor MacLennan",
+  "license": "MIT",
+  "dependencies": {
+    "from2": "^2.3.0",
+    "inherits": "^2.0.1",
+    "multistream": "^2.1.0"
+  },
+  "devDependencies": {
+    "jpg-stream": "^1.1.1",
+    "png-stream": "^1.0.4",
+    "request": "^2.74.0",
+    "standard": "^8.0.0"
+  }
+}
