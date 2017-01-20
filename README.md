@@ -164,7 +164,7 @@ var Mosaic = require('mosaic-image-stream')
 
 Where:
 
-- `streams` - a 2-d array of input stream, columns, then rows.
+- `streams` - a 2-d array of input stream, columns, then rows: e.g. `streams = [[row1col1, row2col2], [row1col2, row2col2]]`
 - `height` - the total height of the input streams (width can be calculated on the fly from input images)
 
 All input streams *must* have the same dimensions and color space - the output stream will throw an error if they differ, or if the total height of the input streams does not match the height specified.
