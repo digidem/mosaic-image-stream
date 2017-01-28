@@ -17,16 +17,20 @@
   "author": "Gregor MacLennan",
   "license": "MIT",
   "dependencies": {
+    "block-stream2": "^1.1.0",
+    "buffer-peek-stream": "^1.0.1",
     "from2": "^2.3.0",
     "inherits": "^2.0.1",
-    "multistream": "^2.1.0"
+    "interleave-stream": "^1.0.2",
+    "multistream": "^2.1.0",
+    "pumpify": "^1.3.5"
   },
   "devDependencies": {
     "jpg-stream": "^1.1.1",
     "png-stream": "^1.0.4",
     "request": "^2.74.0",
     "standard": "^8.0.0",
-    "tilebelt": "^1.0.1"
+    "@mapbox/tilebelt": "^1.0.1"
   },
   "directories": {
     "example": "example"
