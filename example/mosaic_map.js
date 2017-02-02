@@ -3,7 +3,7 @@ var path = require('path')
 var request = require('request')
 var JPGDecoder = require('jpg-stream/decoder')
 var JPGEncoder = require('jpg-stream/encoder')
-var tilebelt = require('tilebelt')
+var tilebelt = require('@mapbox/tilebelt')
 
 var MAPBOX_TOKEN = 'pk.eyJ1IjoiZ21hY2xlbm5hbiIsImEiOiJSaWVtd2lRIn0.ASYMZE2HhwkAw4Vt7SavEg'
 var urlBase = 'https://api.mapbox.com/v4/mapbox.streets/'
